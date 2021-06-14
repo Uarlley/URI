@@ -1,0 +1,6 @@
+tex = input()
+a = tex.split()
+horario = int(a[0])
+tempo = int(a[1])
+fuso = int(a[2])
+print((horario + tempo + fuso + 24)%24)
